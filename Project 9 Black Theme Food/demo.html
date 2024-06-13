@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>demo</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      ul {
+        list-style: none;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .row {
+        display: flex;
+      }
+      .j-between {
+        justify-content: space-between;
+      }
+      .align-center {
+        align-items: center;
+      }
+      .container {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .navigation .nav-links-wrapper{
+        
+      }
+      .nav-links-wrapper .nav-links {
+        display: flex;
+      }
+      /* // banner-section // */
+      .banner-section .banner-section-wrapper .banner-content-wrapper {
+        position: relative;
+        display: flex;
+      }
+      .banner-section .banner-section-wrapper .banner-image {
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+      }
+      .banner-section .banner-section-wrapper .banner-content {
+        width: 50%;
+        margin-left: auto;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <div class="nav-links-wrapper">
+          <ul class="nav-links row j-between align-center container">
+            <li class="nav-link">
+              <a class="nav-item" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-link">
+              <a class="nav-item" href="#">MENU</a>
+            </li>
+            <li class="nav-link">
+              <a class="nav-item" href="#">Gallery</a>
+            </li>
+            <li class="logo-wrapper">
+              <a class="logo-link" href="#">
+                <img
+                  src="./assets/img/Logo1.png"
+                  alt="logo"
+                  class="logo-image"
+                />
+              </a>
+            </li>
+            <li class="nav-link">
+              <a class="nav-item" href="#">BOOKINGS</a>
+            </li>
+            <li class="nav-link">
+              <a class="nav-item" href="#">CONTACT</a>
+            </li>
+            <li class="nav-link">
+              <a class="nav-item" href="#">BLOG</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="banner-section">
+        <div class="banner-section-wrapper">
+          <div class="banner-content-wrapper">
+            <div class="banner-content">
+              <h2>Start Your Meal With Our Exclusive Menu</h2>
+            </div>
+            <img class="banner-image" src="./assets/img/Bg-1.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

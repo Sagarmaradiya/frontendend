@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 5rem;
+}
+
+.contant {
+
+    height: 100vh;
+    display: flex;
+    background-image: url(/assets/img/ece5c8d5a0f60a3aab4da74e5dfaf09e\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-501 {
+    background-color: white;
+    width: 50%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.h-p p {
+    width: 20%;
+    font-family: 'Inter', sans-serif;
+    padding: 5rem 0 1rem 5rem;
+    color: #300153;
+    font-size: 2rem;
+}
+
+.h-p p1 {
+    padding-left: 5rem;
+    color: #300153;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+}
+
+.h2 {
+    position: absolute;
+    padding: 2rem 0 0 28.3rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    line-height: 9.375rem;
+    letter-spacing: .5rem;
+    background: linear-gradient(to right, #5F0098 95.2%, white 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.h22 {
+    position: absolute;
+    padding: 6rem 0 0 37.2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    line-height: 8.9rem;
+    letter-spacing: .5rem;
+    background: linear-gradient(to right, #5F0098 62.55%, white 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p-btn p {
+    padding: 14rem 0 0 5rem;
+    width: 35%;
+    color: #000;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn {
+    margin: 3rem 0 0 5rem;
+    padding: 0.5rem 5rem;
+    color: #FFF;
+    font-size: 1rem;
+    border-radius: 1.6875rem;
+    background: linear-gradient(90deg, #74008C 0%, #301BA0 100%);
+}
+
+/*-------------------------------------- WELNESS GARDEN -------------------------------*/
+.welness {
+    position: relative;
+}
+
+.contant1 {
+    background-color: black;
+}
+
+.page-1 {
+    padding: 5rem 0 0 3rem;
+}
+
+/* .img1 {
+padding: 2rem 0 0 1rem;
+} */
+.page-1 img {
+    border-radius: 2.6875rem;
+    background-color: #FFC7E3;
+
+}
+
+.page-1 h3 {
+    width: 28%;
+    position: absolute;
+    font-family: "Roc Grotesk W05 Wide Bold";
+    top: 20rem;
+    left: 8rem;
+    line-height: 2.5rem;
+    color: #000;
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+}
+
+.box {
+    padding: 0.5rem 0.5rem;
+    border-radius: 2rem;
+    background: #000;
+    font-size: 12px;
+    font-family: "Roc Grotesk W05 Wide Bold";
+    position: absolute;
+    color: #FFF;
+}
+
+.box1 {
+    top: 38rem;
+    left: 8rem;
+}
+
+.box2 {
+    top: 38rem;
+    left: 18rem;
+}
+
+.box3 {
+    top: 41rem;
+    left: 8rem;
+}
+
+.box4 {
+    top: 41rem;
+    left: 14rem;
+}
+
+.box5 {
+    top: 41rem;
+    left: 21rem;
+}
+
+.box6 {
+    top: 44rem;
+    left: 8rem;
+}
+
+
+/*------------------------------------------------- Slider -----------------------------*/
+
+.gallery {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .gallery-item {
+        height: 80vh;
+        max-height: 500px;
+        width: 8vw;
+        object-fit: cover;
+        border-radius: 50px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+        transition: all .3s ease-in-out;
+        opacity: .9;
+
+        &:hover {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+            opacity: 1;
+        }
+
+        &:active {
+            width: 6vw;
+        }
+    }
+
+    .gallery-expand {
+        width: 30vw;
+        border-radius: 20px;
+        transition: all .3s ease-in-out;
+        transform-origin: center;
+
+        &:active {
+            width: 28vw;
+        }
+    }
+}
+
+
+/* // Keyframes */
+@keyframes backgroundSlide {
+
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}

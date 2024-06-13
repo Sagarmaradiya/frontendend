@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Selectors</title>
+
+</head>
+
+<style>
+    h1 {
+        background-color: red;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Is p Is contained By Any Li Which Is Contained By div */
+    /* div li p {
+        color: yellow;
+        font-weight: bold;
+        background-color: green;
+    } */
+
+    /* If P Is Right Inside Div Then This CSS Will Be Applied */
+    /* div>p {
+        color: yellow;
+        font-weight: bold;
+        background-color: green;
+    } */
+
+    /* If o Is Right After Div That IS The div NExt Sibling Of div */
+    /* div+p {
+        color: white;
+        background-color: rgb(245, 195, 195);
+    } */
+</style>
+
+<body>
+
+    <h1>This Is More Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p>This Is The vAnother Paragraph Inside Li </p>
+                </li>
+                <li>This Will Not Get Affected</li>
+                <p>This Is A Para Inside ul</p>
+
+            </ul>
+            <p>This Is A Paragraph</p>
+        </div>
+        <p>This Is Another Paragrapg</p>
+    </div>
+    <p>This Is Outermost Paragraph</p>
+
+</body>
+
+</html>

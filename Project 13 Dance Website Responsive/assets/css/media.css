@@ -1,0 +1,571 @@
+@media(min-width:768px) {
+    .hambergur {
+        display: none;
+    }
+
+    .desktop-menu {
+        /* position: absolute; */
+        display: flex;
+    }
+
+    .main-menu-wrapper {
+        order: 0;
+    }
+
+    .banner-img-wrapper {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .content-container {
+        position: relative;
+        top: 5rem;
+        z-index: 1;
+    }
+}
+
+/*-------------------------------------Mobile S----------------------------------*/
+@media only screen and (max-width: 320px) {
+
+    .contant {
+        padding-top: 0%;
+    }
+
+    .banner-contant {
+        padding: 70px 0 0 0;
+    }
+
+    .banner-contant-wrapper .banner-title {
+        font-size: 25px;
+    }
+
+    .banner-details {
+        font-size: 6.5px;
+        margin-bottom: 1px;
+    }
+
+    .banner-button {
+        font-size: 9px;
+        letter-spacing: 0px;
+        width: 64px;
+        height: 15px;
+        margin-top: 3px;
+    }
+
+    /***************************************** Dance Section  */
+
+    .title-center h1 {
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+
+    .title-center p {
+        padding: 2rem 0;
+        font-size: 1rem;
+    }
+
+    .box-contant {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .box h2 {
+        padding-top: 0.8rem;
+    }
+
+    .box img {
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .box p {
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 1rem;
+        font-size: 14px;
+    }
+}
+
+/* ---------------------------------------------Mobile S -------------------------- */
+@media (min-width: 320px) and (max-width: 374px) {
+
+    .contant {
+        padding-top: 0%;
+    }
+
+    .banner-contant {
+        padding: 5rem 0 0 0;
+    }
+
+    .banner-contant-wrapper .banner-title {
+        font-size: 25px;
+    }
+
+    .banner-details {
+        font-size: 6.5px;
+        margin-bottom: 1px;
+    }
+
+    .banner-button {
+        font-size: 9px;
+        letter-spacing: 0px;
+        width: 64px;
+        height: 15px;
+        margin-top: 3px;
+    }
+
+    /***************************************** Dance Section  */
+
+    .title-center h1 {
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+
+    .title-center p {
+        padding: 2rem 0;
+        font-size: 1rem;
+    }
+
+    .box-contant {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .box h2 {
+        padding-top: 0.8rem;
+    }
+
+    .box img {
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .box p {
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 1rem;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+
+    .contant {
+        padding-top: 7%;
+    }
+
+    .container {
+        max-width: 42rem;
+    }
+
+    .banner-contant {
+        padding: 4rem 0 0 0;
+    }
+
+    .banner-contant-wrapper .banner-title {
+        font-size: 40px;
+    }
+
+    .banner-details {
+        font-size: 9px;
+        margin-bottom: 1px;
+    }
+
+    .banner-button {
+        font-size: 9px;
+        letter-spacing: 0px;
+        width: 64px;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+    /***************************************** Dance Section  */
+
+    .title-center h1 {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+
+    .title-center p {
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .box-contant {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .box h2 {
+        padding-top: 0.8rem;
+    }
+
+    .box img {
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .box p {
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 1rem;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 599px) {
+
+    .contant {
+        padding-top: 0%;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+
+    .banner-contant {
+        padding: 6rem 0 0 0;
+    }
+
+    .banner-contant-wrapper .banner-title {
+        font-size: 40px;
+
+    }
+
+
+    .banner-details {
+        font-size: 9px;
+        margin-bottom: 1px;
+    }
+
+    .banner-button {
+        font-size: 9px;
+        letter-spacing: 0px;
+        width: 64px;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+    /***************************************** Dance Section  */
+    .title-center h1 {
+        font-size: 2rem;
+        padding-top: 8rem;
+    }
+
+    .title-center p {
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .box-contant {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .box h2 {
+        padding-top: 0.8rem;
+    }
+
+    .box img {
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .box p {
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 1rem;
+        font-size: 14px;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 767px) {
+    .container {
+        width: 94%;
+    }
+
+    .banner-contant {
+        padding: 6rem 0 0 0;
+    }
+
+    .banner-contant-wrapper .banner-title {
+        font-size: 45px;
+        padding: 10px 0;
+    }
+
+    .banner-details {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .banner-button {
+        font-size: 10px;
+        letter-spacing: 0px;
+        width: 80px;
+        height: 20px;
+        margin-top: 6px;
+    }
+
+    /***************************************** Dance Section  */
+
+    .title-center h1 {
+        font-size: 2rem;
+        padding-top: 9rem;
+    }
+
+    .title-center p {
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .box-contant {
+        /* flex-direction: column; */
+        gap: 1rem;
+    }
+
+    .box h2 {
+        padding-top: 0.8rem;
+    }
+
+    .box img {
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .box p {
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 1rem;
+        font-size: 14px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        margin-left: 3rem;
+
+    }
+
+    .banner {
+        /* box-sizing: border-box; */
+    }
+
+    .banner-contant {
+        padding: 6rem 0 0 0;
+    }
+
+    .contant p {
+        width: 48%;
+    }
+
+    .banner-contant-wrapper .banner-title {
+        font-size: 60px;
+        padding-top: 40px;
+    }
+
+    .banner-details {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .banner-button {
+        font-size: 15px;
+        letter-spacing: 0px;
+        width: 130px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    /***************************************** Dance Section  */
+
+    .title-center h1 {
+        font-size: 2rem;
+        padding-top: 12rem;
+    }
+
+    .title-center p {
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .box-contant {
+        /* flex-direction: column; */
+        gap: 1rem;
+    }
+
+    .box h2 {
+        padding-top: 0.8rem;
+    }
+
+    .box img {
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .box p {
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 1rem;
+        font-size: 14px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        margin-left: 3rem;
+
+    }
+
+    .banner-contant {
+        padding: 6rem 0 0 0;
+    }
+
+    .contant p {
+        width: 47%;
+    }
+
+    .banner-contant-wrapper .banner-title {
+        font-size: 80px;
+        padding: 85px 0 10px 0;
+    }
+
+    .banner-details {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .banner-button {
+        font-size: 18px;
+        letter-spacing: 0px;
+        width: 160px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+
+    /***************************************** Dance Section  */
+
+    .title-center h1 {
+        font-size: 3rem;
+        padding-top: 12rem;
+    }
+
+    .title-center p {
+        padding: 1rem 0;
+        font-size: 1.5rem;
+        width: 60%;
+    }
+
+    .box-contant {
+        /* flex-direction: column; */
+        gap: 1rem;
+    }
+
+    .box h2 {
+        padding-top: 0.8rem;
+    }
+
+    .box img {
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .box p {
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 1rem;
+        font-size: 14px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .container {
+        margin-left: 3rem;
+
+    }
+
+    .banner-contant {
+        padding: 6rem 0 0 0;
+    }
+
+    .contant p {
+        width: 47%;
+    }
+
+    .banner-contant-wrapper .banner-title {
+        font-size: 100px;
+        padding: 111px 0 30px 0;
+    }
+
+    .banner-details {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .banner-button {
+        font-size: 25px;
+        letter-spacing: 0px;
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+        /***************************************** Dance Section  */
+
+        .title-center h1 {
+            font-size: 4rem;
+            padding-top: 12rem;
+        }
+    
+        .title-center p {
+            padding: 1rem 0;
+            font-size: 1.5rem;
+            width: 60%;
+        }
+    
+        .box-contant {
+            /* flex-direction: column; */
+            gap: 1rem;
+        }
+    
+        .box h2 {
+            padding-top: 0.8rem;
+        }
+    
+        .box img {
+            padding-top: 1rem;
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+        }
+    
+        .box p {
+            margin: 0 auto;
+            width: 90%;
+            padding-bottom: 1rem;
+            font-size: 14px;
+        }
+}

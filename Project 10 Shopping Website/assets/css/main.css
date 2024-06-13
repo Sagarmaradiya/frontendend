@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------- Header ------------------------------*/
+.navbar {
+    display: flex;
+}
+
+.link ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.link ul a {
+    text-decoration: none;
+}
+
+
+.logo {
+    padding: 4rem 0 0 5rem;
+}
+
+.link ul {
+    padding: 5rem 0rem 0 22rem;
+}
+
+.link ul a {
+    padding-right: 3rem;
+
+    color: #242323;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.22px;
+
+}
+
+.btn {
+    padding-top: 4rem;
+
+
+}
+
+.btn1 {
+    width: 134px;
+    height: 62px;
+    border-radius: 7px;
+    background: #000;
+    color: #FEFEFE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+/*------------------------------------- LET’S EXPLORE UNIQUE CLOTHES.-------------------- */
+
+.unique-clothes {
+    /* overflow-x: hidden; */
+}
+
+.container {
+    /* position: relative; */
+    margin: 0 5rem;
+}
+
+.contant1 {
+    margin: 0 7rem;
+}
+
+.bg-1 img {
+    position: relative;
+    z-index: -1;
+    padding-top: 3rem;
+    width: 100%;
+    height: 95vh;
+}
+
+.shape1 {
+    z-index: -1;
+    position: absolute;
+    display: grid;
+}
+
+.shape1 img {
+    padding-bottom: 6rem;
+    margin-left: -1rem;
+}
+
+.shape2 {
+    z-index: -1;
+    position: absolute;
+    /* display: grid; */
+}
+
+.shape2 img {
+    margin-top: 37rem;
+}
+
+.h11 h1 {
+    width: 50%;
+    margin-top: -43rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 96px;
+    line-height: 120px;
+}
+
+.p11 p {
+    padding-top: 1rem;
+    color: #191818;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    letter-spacing: -1.6px;
+}
+
+.btn2 {
+    padding: 2rem 0rem 0 16rem;
+}
+
+.img1 {
+    position: absolute;
+    top: 22.7em;
+    right: 8rem;
+}
+
+.img1 img {
+    width: 650px;
+    height: 560px;
+}
+
+/*--------------------------------------------- Brand ---------------------------------- */
+.contant {
+    padding-top: 7rem;
+}
+
+.brand-logo {
+
+    width: 100%;
+    flex-shrink: 0;
+    background: #EBD96B;
+}
+
+.brand-logo img {
+    padding: 3rem 0rem 2rem 6rem;
+}
+
+
+/*--------------------------------------------- NEW ARRIVALS ----------------------------*/
+
+.title-left h2 {
+    padding: 4rem 0 0 1rem;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 2.88px;
+}
+
+.title-left img {
+    position: absolute;
+    z-index: -1;
+    margin: -2rem 0 0 11.5rem;
+}
+
+.box-contant {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-contant img {
+    padding-top: 5rem;
+    width: 384px;
+    height: 504px;
+}
+
+.box-contant p {
+    color: #191919;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    letter-spacing: -1.28px;
+}
+
+.box-contant p2 {
+    color: #7F7F7F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    letter-spacing: -0.96px;
+}
+
+.box-contant svg {
+    margin-left: 15rem;
+}
+
+/*-------------------------------------- SALE NOW  -------------------------------*/
+.sale-sale {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-50 img {
+    width: 101%;
+    height: 100%;
+}
+
+.payday {
+    z-index: -1;
+    box-sizing: border-box;
+    padding-left: 3rem;
+    background: linear-gradient(1deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+}
+.payday img {
+    margin-left: -1rem;
+    padding-top: 5.6rem;
+    position: absolute;
+    z-index: -1;
+    width: 22%;
+    height: 13%;
+}
+.payday h3 {
+    padding-top: 6rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: 1000;
+    line-height: 100px;
+    width: 63%;
+}
+
+.payday p {
+    padding-top: 1rem;
+    width: 87%;
+    color: #231300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 31px;
+    line-height: 40px;
+    letter-spacing: -0.721px;
+}
+
+.payday p2 {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 1000;
+    line-height: 5rem;
+}
+
+.payday p3 {
+    font-family: 'Poppins', sans-serif;
+     font-size: 30px;
+     letter-spacing: -0.721px;
+}
+.btn3 {
+    padding-top: 2rem;
+}
+.btn4 {
+    padding: 10px 57px;
+    border-radius: 9px;
+    background: #000;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}

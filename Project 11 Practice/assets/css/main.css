@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    overflow-x: hidden;
+}
+/*-------------------------------------------------- TV --------------------------------------- */
+.tv1 {
+    overflow-x: hidden;
+}
+.container {
+    position: relative;
+}
+
+.center h3 {
+    padding-top: 15rem;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.32px;
+}
+
+.center p {
+    background-color: yellow;
+    margin: 0 auto;
+    width: 44%;
+    color: #000;
+    text-align: center;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+}
+.tv {
+    text-align: center;
+}
+.tv img {
+    width: 82.625rem;
+    height: 52.5rem;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+}

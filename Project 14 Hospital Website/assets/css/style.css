@@ -1,0 +1,758 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+/*-----------------------------------------------------Navbar  */
+nav {
+    height: 6rem;
+    width: 100vw;
+    background-color: #eee7e4;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    /* position: fixed; */
+    z-index: 10;
+}
+
+/*Styling logo*/
+.logo {
+    padding: 1vh 1vw;
+    text-align: center;
+}
+
+.logo img {
+    height: 5rem;
+    width: 5rem;
+}
+
+/*Styling Links*/
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 88vw;
+    padding: 0 0.7vw;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    margin: 0 0.7vw;
+
+    font-size: 16px;
+    line-height: 19px;
+    color: #5a66c5;
+    font-weight: 700;
+    font-family: "Domine";
+    letter-spacing: 1px;
+}
+
+.nav-links li a:hover {
+    color: grey;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links li a::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: grey;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+    margin: 0 0 0 10%;
+}
+
+.nav-links li a:hover::before {
+    width: 80%;
+}
+
+/*Styling Buttons*/
+.login-button {
+    background-color: darkgrey;
+    border: 1.5px solid #f2f5f7;
+    border-radius: 2em;
+    padding: 0.6rem 0.8rem;
+    margin-left: 2vw;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.login-button:hover {
+    color: #131418;
+    background-color: #f2f5f7;
+    border: 1.5px solid #f2f5f7;
+    transition: all ease-in-out 350ms;
+}
+
+.join-button {
+    color: #131418;
+    background-color: darkgrey;
+    border: 1.5px solid #f2f5f7;
+    border-radius: 2em;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.join-button:hover {
+    color: #131418;
+    background-color: #f2f5f7;
+    border: 1.5px solid #f2f5f7;
+    transition: all ease-in-out 350ms;
+}
+
+/*Styling Hamburger Icon*/
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    background: #5a66c5;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+/*Animating Hamburger Icon on Click*/
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    transition: all 0.7s ease;
+    width: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* -------------------------------------------------Sec-one  */
+.sec-one {
+    overflow: hidden;
+
+}
+
+.contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee7e4;
+}
+
+.banner {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+
+.shape-wrapper {
+    position: absolute;
+    right: 10%;
+    transform: translate(-10%, -10%);
+    top: 10%;
+}
+
+.img1 img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: right;
+    border-top-right-radius: 75%;
+}
+
+.banner-text {
+    width: 40%;
+}
+
+.banner-text {
+    flex-direction: column;
+    color: #5a66c5;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    line-height: 66px;
+    font-family: "Domine";
+}
+
+.banner-text p {
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    width: 60%;
+    padding: 2rem 0;
+}
+
+.btn1 {
+    width: 40%;
+    height: 38px;
+    border-radius: 19px;
+    background-color: #5a66c5;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn1:hover {
+    color: white;
+    background-color: #374ffe;
+    cursor: pointer;
+}
+
+.shape-group .main-shape-wrapper,
+.banner-text {
+    position: relative;
+}
+
+.main-shape-wrapper .child-shape {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.shape-group {
+    position: absolute;
+    bottom: -40%;
+    right: -10%;
+}
+
+/*-------------------------------- What We Do Section */
+.work {
+    position: relative;
+    height: 100vh;
+
+}
+
+.banner-img-wrapper {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.banner-img-wrapper img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.banner-box a {
+    text-decoration: none;
+}
+
+.banner-box {
+    position: absolute;
+    top: 50%;
+    background-color: #5a66c5;
+    left: 50%;
+    color: #f2f5f7;
+    z-index: 1;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 40px 70px;
+    border-radius: 11px;
+}
+
+.banner-box h2 {
+    font-size: 80px;
+    line-height: 100px;
+    padding-bottom: 1rem;
+    font-family: "Domine";
+    font-weight: 700;
+}
+
+.banner-box p {
+    font-family: "Karla";
+    width: 65%;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: justify;
+    /* align-items: center; */
+}
+
+.banner-box a {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Domine";
+    display: block;
+    margin-top: 10px;
+    color: #f2f5f7;
+}
+
+/* ---------------------------Section Three */
+.treatment {
+    position: relative;
+}
+
+.banner-img-wrapper3 img {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.banner3 {
+    position: absolute;
+    background-color: #f2f5f7;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    height: 100%;
+    opacity: 0.761;
+    width: 50%;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner3 h2 {
+    font-size: 60px;
+    text-align: left;
+    width: 40%;
+    color: #5a66c5;
+    font-family: "Domine";
+    padding-bottom: 2rem;
+}
+
+.banner3 p {
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    color: #5a66c5;
+    font-family: "Karla";
+    padding-bottom: 2rem;
+    line-height: 36px;
+    text-transform: uppercase;
+
+}
+
+
+/* ---------------------------Section Four */
+
+.banner4 {
+    position: absolute;
+    background-color: #f2f5f7;
+    top: 0%;
+    right: 0%;
+    z-index: 1;
+    height: 100%;
+    opacity: 0.761;
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner4 h2 {
+    font-size: 134px;
+    line-height: 150px;
+    color: #5a66c5;
+    font-weight: 700;
+    opacity: 1;
+    font-family: "Domine";
+    text-align: center;
+}
+
+.btn2 {
+    width: 16rem;
+    font-size: 1.5rem;
+    height: 40px;
+    margin: 1rem;
+    border-radius: 17px;
+    opacity: 1;
+    background-color: #5a66c5;
+    border: 0;
+}
+
+/* ---------------------------Section Five */
+
+.banner5 {
+    background-color: #5a66c5;
+    color: #e9e8d9;
+    display: flex;
+    justify-content: space-around;
+    /* width: 30%; */
+}
+
+.box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h3 {
+    font-size: 55px;
+    font-family: "Domine";
+    padding: 2rem 0 1rem 0;
+}
+
+.b1 h3 {
+    width: 70%;
+
+}
+
+.b2 h3 {
+    width: 83%;
+}
+
+.b3 h3 {
+    width: 67%;
+}
+
+.box p {
+    padding-bottom: 2rem;
+    font-size: 17px;
+    width: 75%;
+    text-align: justify;
+    font-weight: 400;
+    font-family: "Karla";
+}
+
+/* ------------------------- section five  */
+
+.contan-contant {
+    padding: 2rem 0px;
+}
+
+.sec-five-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-five-content-wrapper {
+    position: relative;
+}
+
+
+.sec-five-img-wrapper {
+    position: absolute;
+    left: -50%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.sec-five-left-content {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+
+}
+
+.sec-five-left-content h4 {
+    font-size: 80px;
+    color: #5a66c5;
+    font-family: "Domine";
+}
+
+.summry p {
+    padding: 2rem 0 2rem 0;
+    width: 70%;
+    font-size: 17px;
+    color: #5a66c5;
+    margin: 0 auto;
+    font-family: "Karla";
+    text-align: justify;
+}
+
+/*---------------------------Card Section  */
+
+.cards-section {
+    text-align: center;
+    background: #5a66c5;
+}
+
+.cards-section h1 {
+    padding: 50px 0px;
+    font-size: 82px;
+    color: #ffffff;
+
+}
+
+.cards-main {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+}
+
+
+.card-img1 {
+    object-position: right;
+}
+
+.cards {
+    flex: 0 0 27%;
+}
+
+.cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 30%;
+}
+
+.card-img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 14%;
+}
+
+.cards h2 {
+    font-size: 23px;
+    color: #eee7e4;
+    font-family: "Karla";
+}
+
+.cards h3 {
+    font-size: 19px;
+    color: #eee7e4;
+    font-family: "Karla";
+    /* padding-bottom: 20rem; */
+}
+
+
+/*--------------------------------- Counting Number  */
+
+.counting-number {
+    text-align: center;
+    background-color: #eee7e4;
+}
+
+.counting-number h1 {
+    padding: 50px 0px;
+    font-size: 70px;
+    width: 50%;
+    margin: 0 auto;
+    color: #5a66c5;
+
+}
+
+.counting {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+}
+
+.counting-wrapper h2 {
+    font-size: 50px;
+    color: #5a66c5;
+    font-family: "Karla";
+}
+
+.counting-wrapper h3 {
+    font-size: 20px;
+    color: #5a66c5;
+    letter-spacing: -1px;
+    font-family: "Karla";
+}
+
+/*-------------------------------- Last Section  */
+
+.last-wrapper {
+    position: relative;
+}
+
+.last-img img {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+}
+
+.last-banner {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    opacity: 0.761;
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-banner h2 {
+    width: 61%;
+    font-size: 100px;
+    color: #23319d;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Domine";
+}
+
+.btn-last {
+    width: 30rem;
+    font-size: 1.5rem;
+    height: 40px;
+    margin: 1rem;
+    border-radius: 17px;
+    background-color: #5a66c5;
+    border: 0;
+}
+
+
+/*------------------------------- Footer  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}

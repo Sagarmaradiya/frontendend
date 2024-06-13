@@ -1,0 +1,391 @@
+@media (max-width: 1100px) {
+
+    .nav-links li a,
+    .login-button,
+    .join-button {
+        font-size: 12px;
+    }
+
+    .heading_wrapper h1 {
+        font-size: 40px;
+    }
+
+    .heading_wrapper p,
+    .join-button,
+    .icon-detail h3 {
+        font-size: 16px;
+    }
+
+    .banner_section .heading_wrapper {
+
+        padding-left: 5rem;
+    }
+
+    .pera h3 {
+        font-size: 40px;
+        padding: 2rem 2rem;
+    }
+
+    .pera p {
+        padding-left: 2rem;
+        width: 81%;
+        font-size: 16px;
+    }
+
+    .col-50 img {
+        width: 100%;
+    }
+
+    .client-header h3,
+    .last-section h5 {
+        font-size: 35px;
+    }
+
+    .footer-section,
+    .footer-links {
+        margin: 0 5rem;
+    }
+
+    .footer-bottom {
+        padding: 2rem 5rem;
+    }
+
+    .review-detail h3 {
+        font-size: 16px;
+    }
+
+    .review-detail p,
+    .photo-1-name,
+    .photo-2-name,
+    .icon-detail p {
+        font-size: 14px;
+    }
+
+    .features-box {
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .join-button {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .heading_wrapper h1 {
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .heading_wrapper p {
+        width: 70%;
+    }
+
+    .heading_wrapper button {
+        padding: 8px 0px;
+        width: 45%;
+    }
+
+    .conversation-banner {
+        padding-top: 0rem;
+    }
+
+    .banner_section {
+        padding-bottom: 0rem;
+    }
+
+    .pera p {
+        width: 90%;
+        line-height: 25px;
+    }
+
+    .client-header h3 {
+        width: 40%;
+        padding: 35px 0;
+    }
+
+    .img_wrapper img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .logo {
+        padding: 4vh 0rem 0vw 0rem;
+    }
+
+    nav {
+        width: 90%;
+        box-shadow: none;
+    }
+
+    .heading_wrapper h1 {
+        width: 91%;
+        font-size: 30px;
+    }
+
+    .heading_wrapper p {
+        width: 87%;
+    }
+
+    .heading_wrapper button {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .heading_h2 h2 {
+        font-size: 30px;
+    }
+
+    .icon-detail h3 {
+        font-size: 14px;
+    }
+
+    .icon-detail p {
+        font-size: 12px;
+    }
+
+    .pera h3 {
+        font-size: 28px;
+    }
+
+    .review-detail h3 {
+        font-size: 12px;
+    }
+
+    .review-detail p {
+        font-size: 10px;
+        line-height: 22px;
+    }
+
+    .photo-1 img,
+    .photo-2 img {
+        width: 80%;
+    }
+
+    .photo-1-name,
+    .photo-2-name {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .last-section h5 {
+        width: 53%;
+        font-size: 25px;
+        line-height: 45px;
+        padding-bottom: 1rem;
+    }
+
+    .last-section {
+        height: 50vh;
+    }
+
+    .footer-links li a {
+        padding: 0px 10px;
+    }
+
+    .footer-icon i {
+        padding-right: 1rem;
+    }
+
+    /* .wrap-reverse {
+        flex-wrap: wrap-reverse;
+    } */
+    nav {
+        width: 100%;
+        /* box-shadow: none; */
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-section {
+        margin: 0;
+    }
+
+    nav {
+        width: 100%;
+        /* box-shadow: none; */
+    }
+
+    .icon-detail {
+        /* width: 53%; */
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .box {
+        display: block;
+    }
+
+    .features-box {
+        display: block;
+    }
+
+    .icon-detail h3 {
+        font-size: 20px;
+    }
+
+    .icon-detail p {
+        font-size: 16px;
+        padding-bottom: 3rem;
+    }
+
+    .review {
+        display: block;
+    }
+
+    .review-one {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .review-two {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .client-header h3 {
+        width: 50%;
+        padding: 20px 0;
+    }
+
+    .footer-section {
+        display: block;
+    }
+
+    .col-20 {
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    .footer-links {
+        margin: 0 8rem;
+        padding: 2rem 0;
+    }
+
+    .conversation-box-2 {
+        flex-direction: column;
+    }
+
+    .conversation-box-1 {
+        flex-direction: column-reverse;
+    }
+
+    .column-reverse {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .img_wrapper img {
+        width: 90%;
+    }
+
+    .banner_section .heading_wrapper {
+        padding: 2rem 0;
+    }
+
+    .heading_wrapper button {
+        margin-top: 1rem;
+    }
+
+    .heading_h2 h2 {
+        padding: 35px 0px;
+    }
+
+    .heading_h2 h2 {
+        font-size: 25px;
+    }
+
+    .col-50 img {
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .icon-detail p {
+        padding: 0rem 0 2rem 0;
+    }
+
+
+
+    .footer-bottom {
+        padding: 1rem 0rem;
+    }
+    .footer-links li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-bottom {
+        padding: 1rem 0rem;
+        display: block;
+        text-align: center;
+    }
+
+    .terms-policy {
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0rem;
+
+    }
+    .pera h3 {
+        font-size: 25px;
+        padding: 1rem 2rem;
+    }
+    .footer-links li a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .heading_wrapper h1 {
+        width: 83%;
+        font-size: 20px;
+    }
+
+    .heading_wrapper button {
+        width: 60%;
+        font-size: 10px;
+    }
+    .heading_h2 h2 {
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+    .icon-detail h3 {
+        font-size: 18px;
+    }
+    .icon-detail p {
+        font-size: 12px;
+    }
+    .col-50 img {
+        width: 50%;
+    }
+    .pera p {
+        width: 100%;
+        line-height: 20px;
+        padding-bottom: 2rem;
+    }
+    .client-header h3 {
+        width: 55%;
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    .last-section h5 {
+        width: 73%;
+        font-size: 20px;
+    }
+    .footer-links {
+        margin: 0 4rem;
+        padding: 2rem 0;
+    }
+    .footer-links li a {
+        font-size: 12px;
+    }
+    .copyright ul a {
+        font-size: 14px;
+    }
+    .terms-policy ul a {
+        font-size: 14px;
+    }
+}

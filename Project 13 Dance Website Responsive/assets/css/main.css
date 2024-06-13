@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+header {
+    padding: 20px 0;
+}
+
+
+.logo {
+    max-width: 100px;
+}
+
+.nav li a {
+    padding: 0 15px;
+    font-size: 19px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mobile-menu {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -135%;
+    background-color: black;
+    list-style: none;
+}
+
+.main-menu-wrapper {
+    order: -1;
+}
+
+.header {
+    position: relative;
+}
+
+.desktop-menu {
+    display: none;
+}
+
+.search {
+    max-width: 30px;
+}
+
+
+
+/* @media(min-width:1024px) {
+    .banner-contant {
+        top: 15rem;
+    }
+} */
+/*-------------------------------------------Banner------------------------------------*/
+.contant {
+    padding-top: 6%;
+}
+.contant p {
+    width: 49%;
+}
+
+.banner-contant-wrapper {
+    flex-direction: column;
+    position: relative;
+}
+
+.banner-contant {
+    padding: 22rem 0 0 0;
+    position: relative;
+    /* top: 22rem; */
+    z-index: 1;
+}
+
+.banner-contant-wrapper .banner-title {
+    font-size: 125px;
+    font-weight: 400;
+    font-family: "Oswald";
+    color: #fff;
+}
+
+.mt-5 {
+    margin-top: 18rem !important;
+}
+
+.banner-details {
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 48%;
+    color: white;
+    font-size: 30px;
+}
+
+.banner-button {
+    letter-spacing: 3px;
+    width: 322px;
+    height: 65px;
+    margin-top: 35px;
+    border-radius: 16px;
+    background-color: #e8631c;
+    font-size: 25px;
+    font-family: "Oswald";
+    border: none;
+    color: white;
+}
+
+.banner-img-wrapper {
+    position: absolute;
+    inset: 0;
+}
+
+/* -----------------------Dance-Tour----------------------------------- */
+
+.container-fluid {
+    --bs-gutter-x: 0rem;
+}
+
+.contant1 {
+    width: 100%;
+    height: auto;
+    background-color: #e8631c;
+}
+
+.title-center h1 {
+       font-size: 75px;
+       color: #ffffff;
+       /* padding-top: 15rem; */
+       /* top: 20rem; */
+       font-weight: 700;
+       font-family: "Oswald";
+       text-align: center;
+}
+
+.title-center p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 80%;
+    padding-top: 2rem;
+    margin: 0px auto;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.box-contant {
+    padding-bottom: 5rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-around;
+    gap: 2rem;
+
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, min-width(200px, 1fr)); */
+    
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box h2 {
+    color: #ffffff;
+    font-family: "Oswald";
+    text-align: center
+}
+
+.box p {
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+.box {
+    background-color: #303030;
+    /* width: 372px;  */
+    /* margin-top: 3rem; */
+    /* height: 28rem; */
+}
